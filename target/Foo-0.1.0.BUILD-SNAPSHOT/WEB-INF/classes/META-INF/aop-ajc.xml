@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="com.foo.Timer_Roo_ToString"/>
+<aspect name="com.foo.Timer_Roo_Entity"/>
+<aspect name="com.foo.Timer_Roo_Configurable"/>
+<aspect name="com.foo.Timer_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

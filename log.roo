@@ -1,0 +1,24 @@
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-19 12:40:47
+project --topLevelPackage com.foo --projectName Foo --java 6
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-19 12:40:48
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-19 12:40:50
+hint
+persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY 
+hint
+entity --class ~.Timer --testAutomatically 
+hint
+// [failed] field string --fieldName user --notNull 
+field string --fieldName userName --notNull 
+field date --fieldName startDate --type java.util.Date --dateFormat 
+field email template --fieldName email
+hint
+hint gwt
+gwt setup
+hint
+perform tests 
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-19 12:57:08
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-19 13:25:59
+hint
+perform tests
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log closed at 2012-02-19 13:46:25
+// Spring Roo 1.1.5.RELEASE [rev d3a68c3] log opened at 2012-02-19 13:56:54
